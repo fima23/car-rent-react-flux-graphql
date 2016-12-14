@@ -1,7 +1,6 @@
 import alt from '../alt';
 import CarsActions from '../actions/CarsActions';
 import Request from 'react-http-request';
-import Immutable from 'immutable';
 
 class CarStore {
     constructor() {
@@ -17,7 +16,7 @@ class CarStore {
     }
 
     getAllCars(data) {
-        this.setState({ cars: Immutable.fromJS({cars : data.cars})})
+        this.setState({ cars: data.cars})
     }
 }
 

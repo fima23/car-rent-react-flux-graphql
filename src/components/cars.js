@@ -22,14 +22,13 @@ class Cars extends Component {
 	    	return CarStore.getState();
 	  }
     render() {
-			console.log(this.props);
 			  return (
 					<div>
               <Well>Here is cars</Well>
               <div>
                   <Accordion>
                       {
-                          this.props.cars.get('cars').map((car, index) => {
+                          this.props.cars.map((car, index) => {
                           const panelHeader = (
                               <Row>
                                   <Col xs={8}><h3>${car.name}</h3></Col>
