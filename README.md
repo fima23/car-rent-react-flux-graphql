@@ -29,8 +29,8 @@ npm start
 Open the web browser to `http://localhost:8888/`
 
 ### To run server
-
+```
 node server
-
+```
 ### Contribute
 Please contribute to the project if you know how to make it better, including this README :)
